@@ -13,4 +13,5 @@ def subdag_parallel_dag(parent_dag_id, child_dag_id, default_args):
             task_id='task_3',
             bash_command='sleep 3'
         )
+        
         return dag
